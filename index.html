@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Brooklyn Museum Project</title>
+  <link rel="stylesheet" href="painting.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="painting.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="image"></div>
+
+  <div class="info">
+    <h1 class="title"></h1>
+    <h3 class="artist"></h3>
+  </div>
+
+  <div class="tags-partial">
+    <div class="close-form">
+      <a class="close-button">X</a>
+    </div>
+    <p>
+      <a class="add-tags">+ Add Tag</></a>
+    </p>
+
+    <div class="tag-form">
+      <form id="new-tag" action="#" method="post">
+      <input type="text" id="tag" name="tag" placeholder="Add another tag">
+      <input type="submit" value="+">
+      </form>
+    </div>
+
+    <h3 class="orange-text">TAGS</h3>
+    <div class="tag-list">
+    </div>
+  </div>
+
+</body>
+</html>
